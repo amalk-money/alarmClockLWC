@@ -17,25 +17,25 @@ This project is a functional alarm clock using Salesforce Lightning Web Componen
 5. Click "Reset Alarm" to stop the alarm and reset to set new alarm.
 
 ## Code Structure
-alarmClock.html
+1. alarmClock.html
 The HTML file is used to render the layout of the alarm clock, including:
 
 * The real-time clock display.
 * The time input field for setting the alarm.
 * Buttons to set/reset the alarm.
 
-alarmClock.js
+2. alarmClock.js
 The JavaScript controller handles the logic for:
 
 * Updating the current time in real-time.
 * Setting and comparing the alarm time.
 * Triggering the sound notification when the alarm time is reached.
 
-alarmClock.css
+3. alarmClock.css
 The CSS file is used to style the alarm clock, including:
 
 * Adjustments to the layout.
 * Custom styles for the clock and alarm settings.
 
-clockDropDown
+4. clockDropDown
 This is a child component used to reuse the drop-down menu for hour, minute and meridian.
