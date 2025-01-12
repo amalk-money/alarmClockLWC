@@ -18,7 +18,7 @@ This project is a functional alarm clock using Salesforce Lightning Web Componen
 
 ## Code Structure
 1. alarmClock.html
-The HTML file is used to render the layout of the alarm clock, including:
+** The HTML file is used to render the layout of the alarm clock, including:
 
 * The real-time clock display.
 * The time input field for setting the alarm.
